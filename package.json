@@ -1,0 +1,30 @@
+{
+  "name": "hitabot-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && babel dist --out-dir lib --source-maps --modules common"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "elquire": "0.0.2",
+    "express": "^4.13.3",
+    "jsonfile": "^2.2.3",
+    "jsonwebtoken": "^5.4.1",
+    "mysql": "^2.9.0",
+    "request": "^2.65.0",
+    "sequelize": "^3.13.0",
+    "socket.io": "^0.9.17",
+    "socket.io-client": "^0.9.17"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.9.2"
+  }
+}

@@ -1,0 +1,11 @@
+{
+	"secret":"",
+	"maxChannelsPerSlave": 200,
+	"rotationType": "random",
+	"bots": [
+		{
+			"bot": "",
+			"authToken": ""
+		}	
+	]
+}
